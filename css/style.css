@@ -113,6 +113,18 @@ header {
 	z-index: 100;
 	padding-top: 70px;
 }
+
+#title-text {
+	padding-top: 75px;
+}
+
+/* ========= BIG REASONS ======== */
+
+.big-reason {
+	padding-bottom: 0px;
+}
+
+
 /* ========== FEATURES ========== */
 #features {
 	width: 100%;
@@ -471,6 +483,15 @@ header {
 .intro-well{
 	padding-top: 0;
 }
+#title-text {
+	padding-top: 0px;
+}
+#top-image{
+	padding-top: 30px;
+}
+.big-reason {
+	padding-bottom: 30px;
+}
 #features {
 	padding-top: 50px;
 }
@@ -496,6 +517,9 @@ header {
 }
 #newsletter h3 {
 	font-size: 18px;
+	line-height: 28px;
+}
+#newsletter h4 {
 	line-height: 28px;
 }
 #screenshots {
