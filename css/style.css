@@ -75,7 +75,7 @@ header {
 #intro {
 	width: 100%;
 	z-index: 1;
-	background: url(../img/ancient-shatrunjay-blue.jpg);
+	background: url(../img/ancient-shatrunjay-blue-opt.jpg);
 	background-position: center top;
 	background-repeat: no-repeat;
 	background-attachment: fixed;
@@ -369,7 +369,7 @@ header {
 	padding-top: 110px;
 	padding-bottom: 110px;
 	background: #0386c9;
-	background: url(../img/ancient-shatrunjay-blue.jpg);
+	background: url(../img/ancient-shatrunjay-blue-opt.jpg);
 	background-position: center top;
 	background-repeat: no-repeat;
 	background-attachment: fixed;
