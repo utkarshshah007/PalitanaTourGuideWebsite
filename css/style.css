@@ -103,7 +103,7 @@ header {
 	line-height: 32px;
 	color: #fff;
 	text-align: center;
-	margin-bottom: 35px;
+	margin-bottom: 0px;
 	clear: both;
 	display: block;
 }
@@ -115,7 +115,17 @@ header {
 }
 
 #title-text {
-	padding-top: 75px;
+	padding-top: 0px;
+}
+
+#giftCardImgRow {
+	text-align: -webkit-center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#giftCardImg {
+	max-height: 200px;
 }
 
 /* ========= BIG REASONS ======== */
