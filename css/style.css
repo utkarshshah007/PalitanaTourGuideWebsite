@@ -69,6 +69,10 @@ body {
     background-color: #2dcdd2;
 }
 
+.videoButton:hover {
+	background-color: #28b8bd;
+}
+
 .doc-loader td{
 	vertical-align: middle;
 	text-align: center;
