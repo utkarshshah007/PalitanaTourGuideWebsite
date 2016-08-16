@@ -33,6 +33,19 @@ $(document).ready(function() {
     autoplayHoverPause:true
 });
 
+  // ==================== MAGNIFIC POPUP ==================== //
+
+   $('.popup-youtube').magnificPopup({
+    type:'iframe',
+    disableOn: 0,
+    type: 'iframe',
+    mainClass: 'mfp-fade',
+    removalDelay: 160,
+    preloader: false,
+
+    fixedContentPos: false
+  });
+
 
 
 });
