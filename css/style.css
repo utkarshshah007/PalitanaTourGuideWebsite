@@ -42,6 +42,19 @@
 }
 
 
+.fa.fa-wifi:after {
+    content: "";
+    position: absolute;
+    width: 3px;
+    height: 71.421356%;
+    top: 10.710678%;
+    display: block;
+    background: #34495e;
+    left: 50%;
+    transform: translate(-50%, 0) rotate(45deg);
+}
+
+
 
 
 /* ========== GENERAL STYLES ========== */
@@ -267,6 +280,7 @@ header {
 .icnp {
 	text-align: center;
 	line-height: 1.6;
+	font-size: 15px;
 }
 .iconbox > a {
 	height: 126px;
