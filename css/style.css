@@ -77,6 +77,15 @@ body {
 	z-index: 100000;
 }
 
+#top-banner {
+	text-align: center;
+    font-size: 18pt;
+    background-color: #34495e;
+    color: white;
+    height: 0px;
+    visibility: hidden;
+}
+
 .videoButton {
 	margin: 10px;
     background-color: #2dcdd2;
@@ -519,13 +528,39 @@ header {
 	line-height: 34px;
 	font-weight: 300;
 }
+/* ========== ABOUT-US ========== */
+#about-us {
+	padding-top: 80px;
+	padding-bottom: 10px;
+	background-color: #34495e;
+	color: white;
+}
+#about-us h1 {
+	margin: 0;
+	padding-bottom: 30px;
+	display: block;
+	clear: both;
+	font-size: 28px;
+	line-height: 32px;
+	text-align: center;
+	font-weight: 300;
+	color: white;
+}
 
+#about-us form {
+	text-align: -webkit-center;
+}
+
+#about-us legend {
+	color: white;
+	width: inherit;
+}
 
 /* ========== FOOTER ========== */
 footer {
 	background: #34495e;
 	color: #fff;
-	padding: 70px 0;
+	padding: 20px 0;
 	text-align: center;
 }
 footer p {
@@ -540,6 +575,13 @@ footer p {
 @media screen and (max-width:500px) {
 header {
 	padding-top: 20px;
+}
+#top-banner {
+	height: inherit;
+	visibility: visible;
+}
+.social-links {
+	visibility: hidden;
 }
 #intro {
 	padding-bottom: 50px;
