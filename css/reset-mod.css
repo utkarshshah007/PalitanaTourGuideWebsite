@@ -1,0 +1,48 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+#pricing html, #pricing body, #pricing div, #pricing span, #pricing applet, #pricing object, #pricing iframe,
+#pricing h1, #pricing h2, #pricing h3, #pricing h4, #pricing h5, #pricing h6, #pricing p, #pricing blockquote, #pricing pre,
+#pricing a, #pricing abbr, #pricing acronym, #pricing address, #pricing big, #pricing cite, #pricing code,
+#pricing del, #pricing dfn, #pricing em, #pricing img, #pricing ins, #pricing kbd, #pricing q, #pricing s, #pricing samp,
+#pricing small, #pricing strike, #pricing strong, #pricing sub, #pricing sup, #pricing tt, #pricing var,
+#pricing b, #pricing u, #pricing i, #pricing center,
+#pricing dl, #pricing dt, #pricing dd, #pricing ol, #pricing ul, #pricing li,
+#pricing fieldset, #pricing form, #pricing label, #pricing legend,
+#pricing table, #pricing caption, #pricing tbody, #pricing tfoot, #pricing thead, #pricing tr, #pricing th, #pricing td,
+#pricing article, #pricing aside, #pricing canvas, #pricing details, #pricing embed, 
+#pricing figure, #pricing figcaption, #pricing footer, #pricing header, #pricing hgroup, 
+#pricing menu, #pricing nav, #pricing output, #pricing ruby, #pricing section, #pricing summary,
+#pricing time, #pricing mark, #pricing audio, #pricing video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+#pricing article, #pricing aside, #pricing details, #pricing figcaption, #pricing figure, 
+#pricing footer, #pricing header, #pricing hgroup, #pricing menu, #pricing nav, #pricing section, #pricing main {
+	display: block;
+}
+#pricing body {
+	line-height: 1;
+}
+#pricing ol, #pricing ul {
+	list-style: none;
+}
+#pricing blockquote, #pricing q {
+	quotes: none;
+}
+#pricing blockquote:before, #pricing blockquote:after,
+#pricing q:before, #pricing q:after {
+	content: '';
+	content: none;
+}
+#pricing table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
